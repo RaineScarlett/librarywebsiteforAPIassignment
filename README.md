@@ -1,38 +1,9 @@
-# sv
+To run use `npm install` and `npm run dev`
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Creating a project
+Full application is running on `https://librarywebsiteforapiassignment.onrender.com/`
 
-If you're seeing this, you've probably already done this step. Congrats!
+As a warning to the deployed version, I fixed every bug I noticed, though, if somehow they still happen,
+make sure to let the page fully load and if a random /? gets added to the url then remove it to go back to the proper home page.
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Now enjoy looking for books, try popular books, try less known ones, try typing gibberish to see the error page.
