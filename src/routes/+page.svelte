@@ -1,12 +1,12 @@
 <script>
   import { goto } from '$app/navigation';
   let searchTerm = '';
-  
+
   function handleSubmit(event) {
     event.preventDefault();
-    if (searchTerm.trim()) {
+    if (searchTerm.trim().length > 0) {
       goto(`/results/${encodeURIComponent(searchTerm)}`);
-    }
+    } 
   }
 </script>
 
